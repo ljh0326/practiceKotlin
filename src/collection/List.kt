@@ -1,4 +1,4 @@
-package Collection
+package collection
 
 /**
  * List:        생성시 넣은 객체를 대체, 추가, 삭제 불가
