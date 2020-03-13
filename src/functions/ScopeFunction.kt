@@ -19,7 +19,7 @@ package functions
  * let
  */
 
-fun main() {
+fun test() {
     //apply
     //기존 경우 인스턴스를 저장한 변수를 통해 참조연산자를 사용해서 속성과 함수를 사용
     //ex a.name, a.discount()
@@ -57,5 +57,16 @@ class Book(var name:String, var price: Int){
     fun disCount(){
         price -= 2000;
     }
+}
+
+fun main() {
+
+    var a = 1
+    var b= 2
+
+    a = a.let { it + 2 }.let { val i = it + b
+        i}
+    println(a) //5
+
 }
 
