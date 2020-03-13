@@ -12,6 +12,7 @@ fun main() {
     val sophia = Person("Sophia")
     val claudia = Person("Claudia")
     sophia likes claudia
+    println(sophia.likedPeople.get(0));
 }
 
 class Person(val name: String) {

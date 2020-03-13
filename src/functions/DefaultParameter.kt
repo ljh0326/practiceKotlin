@@ -19,4 +19,18 @@ fun main() {
     printMessageWithPrefix("Hello", "Log")
     printMessageWithPrefix("Hello")
     println(sum(1,2))
+
+    val rectangle = Rectangle(41, 43)
+    println(rectangle.isSquare)
+}
+
+//if문은 값을 반환한다.
+fun max(x: Int, y: Int) = if (x > y) x else y
+
+//getter setter
+class Rectangle(val height: Int, val width: Int){
+    val isSquare: Boolean
+        get() {
+            return height == width
+        }
 }
