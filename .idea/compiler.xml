@@ -3,6 +3,8 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
       <module name="coroutines" target="1.8" />
+      <module name="coroutines.main" target="1.8" />
+      <module name="coroutines.test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
